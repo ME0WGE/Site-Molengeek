@@ -18,6 +18,7 @@ input[type="submit"] {
   color: white;
   border-radius: 5px;
   border: 0;
+  height: 25px;
 }
 input[type="text"] {
   border-radius: 5px;
@@ -25,6 +26,7 @@ input[type="text"] {
   border: 0;
   height: 25px;
   width: 175px;
+  font-style: italic;
 }
 label[for="form"] {
   color: white;
@@ -37,7 +39,7 @@ label[for="form"] {
 }
 .form-header {
   justify-self: center;
-  margin-left: 30%;
+  margin-left: 34%;
 }
 nav {
   width: 100%;
@@ -134,10 +136,10 @@ footer > div > div > i {
   padding-right: 10px;
 }
 hr:nth-of-type(1) {
-  width: 30px;
+  width: 40px;
   margin-bottom: 50px;
+  border: 1px solid #9B009D
 }
-
 a {
   text-decoration: none;
   color: #363635;
@@ -148,4 +150,8 @@ ul > li::marker {
 }
 li {
   padding: 10px;
+}
+#copyright {
+  font-size: 10px;
+  color: #5a5a59;
 }
