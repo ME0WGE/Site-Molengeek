@@ -54,15 +54,18 @@ nav > div:nth-child(1) {
 }
 .liste > a > p {
   font-size: small;
+  font-weight: bold;
 }
 .coworking > a > p {
   font-size: small;
   margin-right: 30px;
   border-left: 1px solid whitesmoke;
+  font-weight: bold;
 }
 .titre > h1 {
   text-align: center;
   font-size: 50px;
+  font-weight: normal;
 }
 .content-liste > ul > li {
   text-align: center;
@@ -75,6 +78,8 @@ nav > div:nth-child(1) {
 }
 .section2 > div > h2 {
   text-align: center;
+  font-size: 40px;
+  font-weight: normal;
 }
 .section1,
 .section2 {
