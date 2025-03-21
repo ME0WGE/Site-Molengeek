@@ -82,7 +82,7 @@ nav > div:nth-child(1) {
 .section2 > div > p {
   text-align: center;
 }
-.section2 > div > h2 {
+.titre2 > #titre2 {
   text-align: center;
   font-size: 40px;
   font-weight: normal;
@@ -92,6 +92,7 @@ nav > div:nth-child(1) {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
+  font-size: 1rem;
 }
 
 footer {
@@ -112,6 +113,9 @@ footer > div > div {
   row-gap: 50px;
   padding-bottom: 25px;
 }
+footer > div > div > i {
+  padding-right: 10px;
+}
 hr:nth-of-type(1) {
   width: 30px;
   margin-bottom: 50px;
@@ -119,4 +123,11 @@ hr:nth-of-type(1) {
 a {
   text-decoration: none;
   color: #363635;
+}
+ul > li::marker {
+  list-style: circle;
+  color: purple;
+}
+li {
+    padding: 10px;
 }
