@@ -84,34 +84,37 @@ nav > div:nth-child(1) {
   font-weight: normal;
 }
 .content-liste > ul > li {
-  text-align: center;
+  line-height: 0;
 }
-.content-liste > ul > li {
-  text-align: center;
+.section2 > .paragraphe > p {
+  text-align: start;
 }
 .section2 > div > p {
   text-align: center;
   color: #363635;
   padding: 10px;
 }
-.titre2 > #titre2 {
+#titre2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: normal;
 }
 .section1,
 .section2 {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 17rem;
+  padding-right: 17rem;
   padding-bottom: 50px;
   font-size: 1rem;
+}
+.content-text {
+  line-height: 1.8;
 }
 
 footer {
   margin: 0;
   background: #363635;
   color: white;
-  height: 400px;
+  height: 550px;
 }
 footer > div {
   display: flex;
