@@ -38,9 +38,21 @@ label[for="form"] {
 nav {
   width: 100%;
   height: 90px;
+  display: flex;
   background-color: #fffffe;
 }
 img[src="./img/logo.jpg"] {
   width: 180px;
   height: 90px;
+}
+footer {
+  margin: 0;
+  background: #363635;
+}
+.liste {
+  display: flex;
+  gap: 30px;
+}
+.liste > p {
+  font-size: small;
 }
