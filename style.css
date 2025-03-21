@@ -40,10 +40,13 @@ nav {
   height: 90px;
   display: flex;
   background-color: #fffffe;
+  justify-content: space-between;
+  
 }
 img[src="./img/logo.jpg"] {
   width: 90px;
   height: 45px;
+  margin-left: 30px;
 }
 .liste {
   display: flex;
@@ -54,6 +57,7 @@ img[src="./img/logo.jpg"] {
 }
 .coworking > p {
   font-size: small;
+  margin-right: 30px;
 }
 .titre > h1 {
   text-align: center;
