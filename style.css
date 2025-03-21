@@ -104,7 +104,7 @@ footer > div {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 footer > div > div {
   display: flex;
@@ -112,6 +112,7 @@ footer > div > div {
   align-items: center;
   row-gap: 50px;
   padding-bottom: 25px;
+  padding-top: 25px;
 }
 footer > div > div > i {
   padding-right: 10px;
@@ -120,6 +121,7 @@ hr:nth-of-type(1) {
   width: 30px;
   margin-bottom: 50px;
 }
+
 a {
   text-decoration: none;
   color: #363635;
@@ -129,5 +131,5 @@ ul > li::marker {
   color: purple;
 }
 li {
-    padding: 10px;
+  padding: 10px;
 }
