@@ -194,3 +194,11 @@ li {
   padding-bottom: 50px;
   padding-top: 25px;
 }
+#apropos::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  margin-top: 22px;
+}
