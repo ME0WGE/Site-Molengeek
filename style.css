@@ -46,39 +46,48 @@ img[src="./img/logo.jpg"] {
   height: 45px;
 }
 .liste {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 .liste > p {
-    font-size: small;
+  font-size: small;
 }
 .coworking > p {
-    font-size: small;
+  font-size: small;
 }
 .titre > h1 {
-    text-align: center;
+  text-align: center;
 }
 .content-liste > ul > li {
-    text-align: center;
+  text-align: center;
 }
 .content-liste > ul > li {
-    text-align: center;
+  text-align: center;
 }
 .section2 > div > p {
-    text-align: center;
+  text-align: center;
 }
 .section2 > div > h2 {
-    text-align: center;
+  text-align: center;
 }
 .section1,
 .section2 {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
 }
 
 footer {
   margin: 0;
   background: #363635;
   color: white;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+}
+footer > div > div {
+  display: flex;
+  justify-content: center;
+  row-gap: 50px;
 }
