@@ -125,8 +125,12 @@ img[src="./img/logo-2.png"] {
   font-size: 20px;
   line-height: 1.8;
 }
+.section1 {
+  padding-bottom: 0;
+}
 .content-text {
   line-height: 1.8;
+  font-size: 19px;
 }
 
 footer {
