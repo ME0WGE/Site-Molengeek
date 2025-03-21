@@ -42,8 +42,8 @@ nav {
   background-color: #fffffe;
 }
 img[src="./img/logo.jpg"] {
-  width: 180px;
-  height: 90px;
+  width: 90px;
+  height: 45px;
 }
 footer {
   margin: 0;
@@ -54,5 +54,8 @@ footer {
   gap: 30px;
 }
 .liste > p {
+  font-size: small;
+}
+.coworking > p {
   font-size: small;
 }
