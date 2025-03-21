@@ -1,11 +1,6 @@
-/*
-    Header bg-color: #9B009D
-    Footer bg-color: #363635
-*/
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat;
 }
 header {
   display: flex;
@@ -39,15 +34,19 @@ label[for="form"] {
 }
 nav {
   width: 100%;
-  height: 90px;
+  height: 50px;
   display: flex;
   background-color: #fffffe;
   justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
 }
 img[src="./img/logo.jpg"] {
   width: 90px;
   height: 45px;
   margin-left: 30px;
+}
+nav > div:nth-child(1) {
+  border-right: 1px solid whitesmoke;
 }
 .liste {
   display: flex;
@@ -59,6 +58,7 @@ img[src="./img/logo.jpg"] {
 .coworking > a > p {
   font-size: small;
   margin-right: 30px;
+  border-left: 1px solid whitesmoke;
 }
 .titre > h1 {
   text-align: center;
