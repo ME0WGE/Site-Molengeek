@@ -114,6 +114,10 @@ footer > div > div {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+footer > div > div > a {
+  text-decoration: none;
+  color: white;
+}
 footer > div > div > i {
   padding-right: 10px;
 }
