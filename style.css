@@ -41,6 +41,11 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid whitesmoke;
 }
+nav > div > img {
+  width: 120px;
+  height: 60px;
+  margin-left: 30px;
+}
 img[src="./img/logo-2.png"] {
   width: 120px;
   height: 60px;
@@ -63,7 +68,7 @@ nav > div:nth-child(1) {
   border-left: 1px solid whitesmoke;
   font-weight: bold;
 }
-.titre > h1 {
+.titre {
   text-align: center;
   font-size: 50px;
   font-weight: normal;
