@@ -58,9 +58,8 @@ img[src="./img/logo.jpg"] {
   margin-right: 50px;
 }
 img[src="./img/logo-2.png"] {
-  width: 120px;
-  height: 60px;
-  margin-left: 30px;
+  width: 165px;
+  height: 85px;
 }
 nav > div:nth-child(1) {
   border-right: 1px solid whitesmoke;
@@ -112,6 +111,7 @@ footer {
   margin: 0;
   background: #363635;
   color: white;
+  height: 400px;
 }
 footer > div {
   display: flex;
@@ -134,11 +134,16 @@ footer > div > div > a {
 }
 footer > div > div > i {
   padding-right: 10px;
+  font-size: 20px;
 }
 hr:nth-of-type(1) {
   width: 40px;
   margin-bottom: 50px;
-  border: 1px solid #9B009D
+  border: 1px solid #9b009d;
+}
+#hr-footer {
+  width: 100%;
+  border: 1px solid #3a3a39;
 }
 a {
   text-decoration: none;
@@ -152,6 +157,6 @@ li {
   padding: 10px;
 }
 #copyright {
-  font-size: 10px;
+  font-size: 11px;
   color: #5a5a59;
 }
