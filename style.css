@@ -56,8 +56,8 @@ nav {
   border-bottom: 1px solid whitesmoke;
 }
 img[src="./img/logo.jpg"] {
-  width: 160px;
-  height: 80px;
+  width: 180px;
+  height: 90px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -65,6 +65,7 @@ img[src="./img/logo.jpg"] {
   width: 365px;
   height: 155px;
   border-right: 1px solid whitesmoke;
+  align-content: center;
 }
 img[src="./img/logo-2.png"] {
   width: 225px;
@@ -75,23 +76,25 @@ img[src="./img/logo-2.png"] {
   gap: 50px;
 }
 .liste > a > p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding: 10px;
 }
 .coworking > a > p {
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 30px;
   font-weight: bold;
+  text-align: center;
 }
 .coworking {
   width: 355px;
   height: 155px;
   border-left: 1px solid whitesmoke;
+  align-content: center;
 }
 .titre {
   text-align: center;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: normal;
 }
 .content-liste > ul > li {
@@ -158,9 +161,8 @@ footer > div > div > i {
   font-size: 20px;
 }
 hr:nth-of-type(1) {
-  width: 40px;
+  width: 60px;
   margin-bottom: 50px;
-  border: 1px solid #9b009d;
 }
 #hr-footer {
   width: 100%;
