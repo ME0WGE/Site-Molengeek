@@ -194,3 +194,11 @@ li {
   padding-bottom: 50px;
   padding-top: 25px;
 }
+#agenda::before {
+  content: "";
+  width: 83px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  margin-top: 22px;
+}
