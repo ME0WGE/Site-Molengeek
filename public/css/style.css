@@ -196,7 +196,7 @@ li {
 }
 #apropos::before {
   content: "";
-  width: 100px;
+  width: 99px;
   height: 3px;
   background-color: black;
   position: absolute;
