@@ -87,7 +87,6 @@ img[src="./public/assets/img/logo.jpg"] {
 }
 .liste {
   display: flex;
-  justify-content;
   gap: 2vw;
 }
 .liste > a > p {
