@@ -37,7 +37,7 @@ input[type="submit"] {
   height: 3vh;
   width: 6vw;
   padding: 0;
-  font-size: 17px;
+  font-size: 0.9vw;
 }
 input[type="text"] {
   border-radius: 5px;
