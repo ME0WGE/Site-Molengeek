@@ -165,7 +165,6 @@ footer {
   margin: 0;
   background: #363635;
   color: white;
-  height: 55vh;
 }
 footer > div {
   display: flex;
@@ -212,7 +211,7 @@ li {
   color: #5a5a59;
 }
 .copyright {
-  padding: 0px;
+  padding: 0;
 }
 .logo {
   padding-bottom: 50px;
@@ -224,11 +223,11 @@ img[src="./public/assets/img/logo-2.png"] {
 }
 #apropos::before {
   content: "";
-  width: 99px;
+  width: 5vw;
   height: 3px;
   background-color: black;
   position: absolute;
-  margin-top: 22px;
+  margin-top: 1vw;
 }
 
 .footerRsLogo > i {
