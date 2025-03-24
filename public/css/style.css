@@ -222,7 +222,7 @@ img[src="./public/assets/img/logo-2.png"] {
 }
 #apropos::before {
   content: "";
-  width: 5vw;
+  width: 4.5vw;
   height: 3px;
   background-color: black;
   position: absolute;
