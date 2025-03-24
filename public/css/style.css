@@ -139,8 +139,8 @@ img[src="./public/assets/img/logo.jpg"] {
 }
 .section1,
 .section2 {
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-left: 20vw;
+  padding-right: 20vw;
   padding-bottom: 50px;
   font-size: 20px;
   line-height: 1.8;
